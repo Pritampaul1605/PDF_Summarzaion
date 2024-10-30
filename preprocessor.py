@@ -7,6 +7,8 @@ from collections import Counter
 from math import log
 import nltk.corpus as Corpus
 from sklearn.feature_extraction.text import TfidfVectorizer
+import nltk
+nltk.download('stopwords')
 
 
 # Remove html tags
