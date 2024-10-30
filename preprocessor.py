@@ -6,7 +6,6 @@ import re
 from collections import Counter
 from math import log
 import nltk.corpus as Corpus
-nltk.download('stopwords')
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
