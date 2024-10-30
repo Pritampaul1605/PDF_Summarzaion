@@ -1,7 +1,10 @@
 import streamlit as st
 import PyPDF2
 import preprocessor
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
+
 
 
 st.sidebar.title("PDF Summarization")
